@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cors());
 
 //backend setup
-const mongoURI ="mongodb+srv://ahmet:semra123@cluster0.2poff.mongodb.net/discordDB?retryWrites=true&w=majority"
+const mongoURI ="CLUSTER_LINK"
 
 mongoose.connect(mongoURI,{
     useNewUrlParser: true,
