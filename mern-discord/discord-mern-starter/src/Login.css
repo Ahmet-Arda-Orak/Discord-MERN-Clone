@@ -1,0 +1,24 @@
+.login {
+    background-color: #444;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login>button {
+    width: 300px;
+    background-color: #222;
+    color: #eff2f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login>button:hover {
+    background-color: #444;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login_logo{
+    width: 400px;
+}
